@@ -10,7 +10,7 @@ function test(a) {
 test(9);
 ```
 
-코드에서 함수를 선언할때 (a)가 매개변수(Parameter)이고,
+함수를 선언할때 (a)가 매개변수(Parameter)이고,
 함수를 호출할때 (9)가 인자(argument)이다.
 
 ## 함수 선언
