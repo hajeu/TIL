@@ -1,8 +1,7 @@
-# function
+# 함수(function)
 
-## 함수
+## 함수는 사용자가 만든 작업을 수행하거나 값을 계산하는 문장 집합이다.
 
-함수는 사용자가 만든 작업을 수행하거나 값을 계산하는 문장 집합이다.
 ```js
 function test(a) {
     return a
@@ -10,6 +9,7 @@ function test(a) {
 
 test(9);
 ```
+
 코드에서 함수를 선언할때 (a)가 매개변수(Parameter)이고,
 함수를 호출할때 (9)가 인자(argument)이다.
 
