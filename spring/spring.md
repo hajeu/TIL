@@ -1,3 +1,0 @@
-# Spring
-
-## Spring이란?
