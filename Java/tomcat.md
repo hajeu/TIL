@@ -1,4 +1,4 @@
-# tomcat
+# 톰캣(tomcat)
 
 ## 톰캣(tomcat)이란?
 
