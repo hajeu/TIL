@@ -55,3 +55,20 @@ System.out.println(map.size());
 
 //1
 ```
+
+## keySet
+
+keySet 메소드는 맵의 모든 key를 모아서 리턴
+
+```java
+import java.util.HashMap;
+
+public class Sample {
+    public static void main(String[] args) {
+        HashMap<String, String> map = new HashMap<>();
+        map.put("first", "1");
+        map.put("second", "2");
+        System.out.println(map.keySet());   // [first, second]
+    }
+}
+```
