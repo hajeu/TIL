@@ -4,6 +4,25 @@
 
 > 프로그램 구현에 필요한 객체를 파악해서 객체들의 역할을 정의하여서 객체들 간의 '상호작용' 을 통해 프로그램을 만드는 것이다.
 
+```java
+class Test{
+    void Ptest(){
+        System.out.println(1234);
+    }
+}
+
+public class Sample {
+    public static void main(String[] args) {
+        Test test1 = new Test();  // test1 객체를 생성한다.
+        Test test2 = new Test();  // test2 객체를 생성한다.
+
+        test1.Ptest();
+        test2.Ptest();
+    }
+}
+
+```
+
 ## 객체 지향 프로그래밍의 장점
 
 - 코드를 재사용하기 쉽다.
