@@ -11,3 +11,8 @@
 ## 리스코프 치환 원칙(Liskov Substitutions Principle)
 
 부모 Class가 들어갈 자리에 자식 Class를 넣어도 잘 구동되어야 한다 라는 원칙이다.
+
+## 의존성 역전 원칙(Dependency Inversion Principle)
+
+1. 상위 모듈은 하위 모듈에 종속되어서는 안된다. 둘 다 추상화에 의존해야 한다.
+2. 추상화는 세부사항에 의존하지 않는다. 세부사항은 추상화에 의해 달라져야 한다.
